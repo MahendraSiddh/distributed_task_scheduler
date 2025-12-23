@@ -1,4 +1,4 @@
-# Distributed Task Orchestrator
+# 🚀 Distributed Task Orchestrator
 
 <div align="center">
 
@@ -30,57 +30,56 @@
 - [Testing](#-testing)
 - [Deployment](#-deployment)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
-## Overview
+## 🎯 Overview
 
 The **Distributed Task Orchestrator** is an enterprise-grade task management system designed to handle high-throughput workloads across distributed worker nodes. It features intelligent task prioritization, fair load distribution, real-time WebSocket notifications, and comprehensive monitoring capabilities.
 
 ### Key Highlights
 
-- **Real-time Task Assignment** via WebSocket with sub-second latency
-- **Priority-based Queue Management** (P1-P5 scheduling)
-- **Fair Load Balancing** across employee nodes
-- **Distributed Locking** using Redis (Redisson) for idempotency
-- **Automatic Retry Mechanism** with configurable attempts
-- **Comprehensive Analytics** and performance metrics
-- **Role-based Access Control** (Admin & Employee)
-- **Task Comments & Audit Trail** for accountability
+- 🔄 **Real-time Task Assignment** via WebSocket with sub-second latency
+- 📊 **Priority-based Queue Management** (P1-P5 scheduling)
+- ⚖️ **Fair Load Balancing** across employee nodes
+- 🔒 **Distributed Locking** using Redis (Redisson) for idempotency
+- 🔁 **Automatic Retry Mechanism** with configurable attempts
+- 📈 **Comprehensive Analytics** and performance metrics
+- 🎭 **Role-based Access Control** (Admin & Employee)
+- 💬 **Task Comments & Audit Trail** for accountability
 
 ---
 
 ## ✨ Features
 
 ### For Administrators
-- Create tasks with descriptions and priority levels (1-5)
-- Monitor all employees and their workload in real-time
-- View task priority queue and assignment status
-- Access comprehensive analytics dashboard
-- Receive instant notifications on task completion/failure
-- Review employee performance metrics
+- ✅ Create tasks with descriptions and priority levels (1-5)
+- ✅ Monitor all employees and their workload in real-time
+- ✅ View task priority queue and assignment status
+- ✅ Access comprehensive analytics dashboard
+- ✅ Receive instant notifications on task completion/failure
+- ✅ Review employee performance metrics
 
 ### For Employees
-- Automatic task assignment based on workload
-- Real-time task notifications via WebSocket
-- Progress tracking with live updates
-- Task completion/failure reporting with mandatory comments
-- Personal statistics and performance tracking
-- Task history with detailed audit trail
+- ✅ Automatic task assignment based on workload
+- ✅ Real-time task notifications via WebSocket
+- ✅ Progress tracking with live updates
+- ✅ Task completion/failure reporting with mandatory comments
+- ✅ Personal statistics and performance tracking
+- ✅ Task history with detailed audit trail
 
 ### System Features
-- **Distributed Locking**: Prevents duplicate task processing
-- **State Machine**: Manages task lifecycle (Pending → Running → Completed/Failed)
-- **Priority Queue**: Ensures critical tasks are processed first
-- **Fair Distribution Algorithm**: Balances workload across employees
-- **Auto-scaling Ready**: Supports dynamic worker pool sizing
-- **Fault Tolerance**: Automatic recovery from worker failures
-- **WebSocket Fallback**: Automatic polling if WebSocket unavailable
+- ✅ **Distributed Locking**: Prevents duplicate task processing
+- ✅ **State Machine**: Manages task lifecycle (Pending → Running → Completed/Failed)
+- ✅ **Priority Queue**: Ensures critical tasks are processed first
+- ✅ **Fair Distribution Algorithm**: Balances workload across employees
+- ✅ **Auto-scaling Ready**: Supports dynamic worker pool sizing
+- ✅ **Fault Tolerance**: Automatic recovery from worker failures
+- ✅ **WebSocket Fallback**: Automatic polling if WebSocket unavailable
 
 ---
 
-## Architecture
+## 🏗 Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -135,7 +134,7 @@ Assign Next Task Automatically
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Backend
 - **Java 17** - Programming language
@@ -163,7 +162,7 @@ Assign Next Task Automatically
 
 ---
 
-## Prerequisites
+## 📦 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -198,7 +197,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone the Repository
 
@@ -301,7 +300,7 @@ curl -X POST http://localhost:8080/api/auth/register \
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 ### Backend Configuration (`backend/src/main/resources/application.yml`)
 
@@ -387,7 +386,7 @@ volumes:
 
 ---
 
-## API Documentation
+## 📚 API Documentation
 
 ### Authentication Endpoints
 
@@ -453,7 +452,7 @@ curl -X POST http://localhost:8080/api/employee/tasks/task-123/complete \
 
 ---
 
-## Testing
+## 🧪 Testing
 
 ### Run Backend Tests
 
@@ -528,7 +527,7 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ---
 
-## Troubleshooting
+## 🐛 Troubleshooting
 
 ### Common Issues
 
@@ -577,7 +576,7 @@ logging:
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -597,20 +596,10 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-
-## Acknowledgments
-
-- Spring Boot Team for the amazing framework
-- Redis Labs for Redisson library
-- RabbitMQ Team for the robust message broker
-- React Team for the excellent UI library
-
----
-
-## Contact & Support
+## 📞 Contact & Support
 
 - **Email**: mahisiddh36@gmail.com
-- **LinkedIn**: [Your LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/mahendra-nath/))
+- **LinkedIn**: [Mahendra Nath](https://www.linkedin.com/in/mahendra-nath/)
 - **GitHub Issues**: [Report a bug](https://github.com/MahendraSiddh/distributed-task-orchestrator/issues)
 
 ---
@@ -620,4 +609,5 @@ Contributions are welcome! Please follow these steps:
 **⭐ Star this repository if you find it helpful!**
 
 Made with ❤️ by Mahendra Nath
+
 </div>
